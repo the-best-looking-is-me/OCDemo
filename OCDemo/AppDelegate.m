@@ -17,6 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    NSDateComponents *date = [YCAnalysis object_timeStamp:@"1557184027"];
+    NSLog(@"%zd-%02zd-%02zd %02zd:%02zd:%02zd",[date year],[date month],[date day],[date hour],[date minute],[date second]);
+    
+    NSDate *afterDate = [YCAnalysis object_UTCDateFromTimeStamap:@"1557113040"];
+    
+    NSLog(@"相差天数 = %@",[YCAnalysis objectDifferDay:[NSDate date] withTwoDate:afterDate]);
+//
+//    
+//    NSLog(@"symbol = %@",[YCAnalysis object_UTCDateStrFromTimeStamap:@"1557270427" symbol:nil]);
+//
+//    NSLog(@"秒 = %@",[YCAnalysis object_stamapFromDate:afterDate]);
+//
+//    NSLog(@"timeStr = %@",[YCAnalysis object_TimeStrFromDate:afterDate symbol:@"/"]);
+    
+    return YES;
+    
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
