@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  OCDemo
+//
+//  Created by yangchang on 2019/5/3.
+//  Copyright © 2019 yangchang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "JJMacro.h"
+#import "JJClassQuote.h"
+
+#endif /* PrefixHeader_pch */
