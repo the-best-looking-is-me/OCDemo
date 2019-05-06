@@ -56,4 +56,42 @@
     return image;
 }
 
+
+/**
+ 给UILabel设置颜色
+
+ @param label label
+ @param color 颜色
+ @param range 范围
+ */
++ (void)ui_labelColor:(UILabel *)label color:(UIColor *)color range:(NSRange)range{
+    
+    NSMutableAttributedString *AttributedStr = nil;
+    if (label.attributedText == nil) {
+        AttributedStr = [[NSMutableAttributedString alloc] initWithString:label.text];
+    }else {
+        AttributedStr = [label.attributedText mutableCopy];
+    }
+    [AttributedStr addAttribute:NSForegroundColorAttributeName value:color range:range];
+    label.attributedText = AttributedStr;
+}
+
+/**
+ 给UILabel设置字体
+ 
+ @param label label
+ @param font 字体
+ @param range 范围
+ */
++ (void)ui_labelFont:(UILabel *)label font:(UIFont *)font range:(NSRange)range{
+    NSMutableAttributedString *AttributedStr = nil;
+    if (label.attributedText == nil) {
+        AttributedStr = [[NSMutableAttributedString alloc] initWithString:label.text];
+    }else {
+        AttributedStr = [label.attributedText mutableCopy];
+    }
+    [AttributedStr addAttribute:NSFontAttributeName value:font range:range];
+    label.attributedText = AttributedStr;
+}
+
 @end

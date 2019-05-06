@@ -33,6 +33,24 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (UIImage *)ui_ViewToImageView:(UIView*)view transparent:(BOOL)transparent;
 
+
+/**
+ 给UILabel设置颜色
+ 
+ @param label label
+ @param color 颜色
+ @param range 范围
+ */
++ (void)ui_labelColor:(UILabel *)label color:(UIColor *)color range:(NSRange)range;
+/**
+ 给UILabel设置字体
+ 
+ @param label label
+ @param font 字体
+ @param range 范围
+ */
++ (void)ui_labelFont:(UILabel *)label font:(UIFont *)font range:(NSRange)range;
+
 @end
 
 NS_ASSUME_NONNULL_END

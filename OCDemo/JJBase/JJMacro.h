@@ -37,5 +37,6 @@
 #define AdaptedFontSize(R) AdaptedWidth(R)
 #define Adapted(x) ceilf((x) * kScreenWidthRatio)
 
+#define SNJJWEAK __weak typeof(self) weak = self;
 
 #endif /* JJMacro_h */

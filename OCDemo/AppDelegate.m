@@ -17,22 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSDateComponents *date = [YCAnalysis object_timeStamp:@"1557184027"];
-    NSLog(@"%zd-%02zd-%02zd %02zd:%02zd:%02zd",[date year],[date month],[date day],[date hour],[date minute],[date second]);
-    
-    NSDate *afterDate = [YCAnalysis object_UTCDateFromTimeStamap:@"1557113040"];
-    
-    NSLog(@"相差天数 = %@",[YCAnalysis objectDifferDay:[NSDate date] withTwoDate:afterDate]);
-//
-//    
-//    NSLog(@"symbol = %@",[YCAnalysis object_UTCDateStrFromTimeStamap:@"1557270427" symbol:nil]);
-//
-//    NSLog(@"秒 = %@",[YCAnalysis object_stamapFromDate:afterDate]);
-//
-//    NSLog(@"timeStr = %@",[YCAnalysis object_TimeStrFromDate:afterDate symbol:@"/"]);
-    
-    return YES;
-    
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
@@ -40,7 +24,6 @@
     
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

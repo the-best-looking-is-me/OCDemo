@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (hexColor)
+
+//不带 #
 + (UIColor *)hexFloatColor:(NSString *)hexStr;
+
 @end

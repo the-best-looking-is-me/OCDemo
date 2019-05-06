@@ -10,4 +10,12 @@
 
 @implementation JJIndexPageVC
 
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+    [YCThreadSimple threadCountDownTime:10 block:^(NSInteger second) {
+        NSLog(@"second = %zd",second);
+    }];
+}
+
 @end

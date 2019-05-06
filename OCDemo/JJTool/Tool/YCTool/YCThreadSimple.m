@@ -71,8 +71,22 @@
  @param second 总秒数
  @param block 回调
  */
-+ (void)threadSumtime:(NSInteger)second block:(void(^)(NSInteger second))block{
-    
++ (void)threadCountDownTime:(NSInteger)second block:(void(^)(NSInteger second))block{
+    __block NSInteger allSecond = second;
+    if (block) {
+        block(allSecond);
+    }
+    __weak typeof(self) weakSelf = self;
+    [YCThreadSimple threadAt:YCThreadChild DelayTime:1 operate:^{
+        allSecond--;
+        if (allSecond >= 0) {
+            if (block) {
+                [YCThreadSimple threadAtMain:^{
+                    [weakSelf threadCountDownTime:allSecond block:block];                    
+                }];
+            }
+        }
+    }];
 }
 
 @end

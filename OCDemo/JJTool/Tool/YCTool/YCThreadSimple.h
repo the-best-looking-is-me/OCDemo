@@ -52,6 +52,6 @@ typedef void(^ycDelayBlock)(void);
  @param second 总秒数
  @param block 回调
  */
-+ (void)threadSumtime:(NSInteger)second block:(void(^)(NSInteger second))block;
++ (void)threadCountDownTime:(NSInteger)second block:(void(^)(NSInteger second))block;
 
 @end
