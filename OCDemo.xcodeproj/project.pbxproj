@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
 		6FBAD170227BCC22005F0A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBAD16E227BCC22005F0A47 /* Main.storyboard */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		08E5D534040CA98E7AAD7400 /* libPods-OCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		245946FEF309F4B4D35CB4E9 /* Pods-OCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDemo/Pods-OCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBAD168227BCC22005F0A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FBAD169227BCC22005F0A47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -311,6 +314,8 @@
 		6FBAD1B0227BDD5D005F0A47 /* Catatogy */ = {
 			isa = PBXGroup;
 			children = (
+				6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */,
+				6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */,
 				6FBAD1C8227BDFC4005F0A47 /* UIView+Frame.h */,
 				6FBAD1C7227BDFC4005F0A47 /* UIView+Frame.m */,
 				6FBAD1C5227BDFC4005F0A47 /* UIColor+hexColor.h */,
@@ -528,6 +533,7 @@
 				6FBAD1AA227BD25A005F0A47 /* JJToolPageVC.m in Sources */,
 				6FBAD19D227BCF39005F0A47 /* JJBaseTabBarVC.m in Sources */,
 				6FBAD1C3227BDD5D005F0A47 /* YCThreadSimple.m in Sources */,
+				6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */,
 				6FBAD194227BCEC8005F0A47 /* JJBaseVC.m in Sources */,
 				6FBAD1BF227BDD5D005F0A47 /* YCHttpTool.m in Sources */,
 				6FBAD178227BCC23005F0A47 /* main.m in Sources */,

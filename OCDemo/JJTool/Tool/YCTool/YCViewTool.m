@@ -94,4 +94,25 @@
     label.attributedText = AttributedStr;
 }
 
+
+/**
+ 高效切圆角，很正的
+ 
+ @param view view
+ @param width 宽或高
+ */
++ (void)ui_cornorView:(UIView *)view{
+    CGFloat width = view.bounds.size.width;
+    CGRect rect = CGRectMake(0, 0, width, width);
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:rect byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(width, width)];
+    
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc]init];
+    //设置大小
+    maskLayer.frame = rect;
+    //设置图形样子
+    maskLayer.path = maskPath.CGPath;
+    view.layer.mask = maskLayer;
+}
+
+
 @end

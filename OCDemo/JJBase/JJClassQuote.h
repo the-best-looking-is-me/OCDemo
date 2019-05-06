@@ -52,6 +52,7 @@
 #import "UIView+Frame.h"
 #import "YCViewTool.h"
 #import "UIColor+hexColor.h"
+#import "UIImageView+CornerRadius.h"
 
 //控制器
 #import "JJToolPageVC.h"

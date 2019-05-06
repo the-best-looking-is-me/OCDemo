@@ -51,6 +51,15 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)ui_labelFont:(UILabel *)label font:(UIFont *)font range:(NSRange)range;
 
+
+
+/**
+ 高效切圆角，很正的
+ 指定圆角，请参考 UIImageView+CornerRadius 类
+ @param view view
+ */
++ (void)ui_cornorView:(UIView *)view;
+
 @end
 
 NS_ASSUME_NONNULL_END
