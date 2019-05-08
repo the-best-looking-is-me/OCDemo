@@ -14,8 +14,11 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+//    [JJAFNetworking jj_login:@{@"mobile":@"13272050521",@"password":@"snjj2011"} block:^(id  _Nonnull sth, id  _Nonnull sth2) {
+//        
+//    }];
     
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];

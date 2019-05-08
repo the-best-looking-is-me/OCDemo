@@ -17,5 +17,6 @@ target 'OCDemo' do
  pod 'MQTTClient'
  pod 'Canvas'
  pod 'UITextView+Placeholder'
+ pod 'YYKit'
  
 end

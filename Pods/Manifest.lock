@@ -40,6 +40,9 @@ PODS:
   - "UITextView+Placeholder (1.2.1)"
   - WechatOpenSDK (1.8.4)
   - Weibo_SDK (3.2.3)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking
@@ -58,6 +61,7 @@ DEPENDENCIES:
   - "UITextView+Placeholder"
   - WechatOpenSDK
   - Weibo_SDK
+  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -77,6 +81,7 @@ SPEC REPOS:
     - "UITextView+Placeholder"
     - WechatOpenSDK
     - Weibo_SDK
+    - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -95,7 +100,8 @@ SPEC CHECKSUMS:
   "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
   WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
   Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 2cdc743b3b137dcc6dc527fec6cdb2ba406bf024
+PODFILE CHECKSUM: 572abf486a074a734dee4be07f0070106428615f
 
 COCOAPODS: 1.5.3

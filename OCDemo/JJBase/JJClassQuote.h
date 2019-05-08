@@ -30,6 +30,7 @@
 #import <WeiboSDK.h>
 #import <Canvas.h>
 #import <UITextView+Placeholder.h>
+#import <YYKit.h>
 
 //宏
 #import "JJMacro.h"
@@ -43,6 +44,7 @@
 #import "JJBaseTabBarVC.h"
 
 //工具类,分类
+#import "NSObject+HaveValue.h"
 #import "YCHttpTool.h"
 #import "YCThreadSimple.h"
 #import "YCAnimationTool.h"
@@ -53,6 +55,7 @@
 #import "YCViewTool.h"
 #import "UIColor+hexColor.h"
 #import "UIImageView+CornerRadius.h"
+#import "JJAFNetworking.h"
 
 //控制器
 #import "JJToolPageVC.h"
@@ -64,5 +67,6 @@
 //cell类
 
 //模型类
+#import "JJLoginUser.h"
 
 #endif /* JJClassQuote_h */

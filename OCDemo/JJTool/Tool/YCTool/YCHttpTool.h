@@ -9,16 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <AFNetworking.h>
 
-@interface YCHttpTool : NSObject
+@interface YCHttpTool : AFHTTPSessionManager
 
-/**
- get请求
- */
-+ (NSURLSessionDataTask *)getMethod:(NSString *)url parameter:(NSDictionary *)dic result:(void(^)(id content,id err))result;
-/**
- post请求
- */
-+ (NSURLSessionDataTask *)postMethod:(NSString *)url parameter:(NSDictionary *)dic result:(void(^)(id content,id err))result;
++ (instancetype)sharedManager;
+
+
+- (void)getHttp:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block;
+- (void)postHttp:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block;
 
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0766762282A01B009A956D /* APRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766752282A01B009A956D /* APRequestSerializer.m */; };
+		6F0766782282A453009A956D /* public.cer in Resources */ = {isa = PBXBuildFile; fileRef = 6F0766772282A453009A956D /* public.cer */; };
+		6F07667F2282B225009A956D /* JJAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07667E2282B225009A956D /* JJAFNetworking.m */; };
+		6F0766852282B3AB009A956D /* JJLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766842282B3AB009A956D /* JJLoginUser.m */; };
+		6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766872282B6D7009A956D /* NSObject+HaveValue.m */; };
+		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
@@ -35,6 +41,19 @@
 /* Begin PBXFileReference section */
 		08E5D534040CA98E7AAD7400 /* libPods-OCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		245946FEF309F4B4D35CB4E9 /* Pods-OCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCDemo/Pods-OCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6F0766742282A01B009A956D /* APRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRequestSerializer.h; sourceTree = "<group>"; };
+		6F0766752282A01B009A956D /* APRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRequestSerializer.m; sourceTree = "<group>"; };
+		6F0766772282A453009A956D /* public.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = public.cer; sourceTree = "<group>"; };
+		6F07667D2282B225009A956D /* JJAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAFNetworking.h; sourceTree = "<group>"; };
+		6F07667E2282B225009A956D /* JJAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAFNetworking.m; sourceTree = "<group>"; };
+		6F0766802282B261009A956D /* JJUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJUrl.h; sourceTree = "<group>"; };
+		6F0766812282B289009A956D /* JJClassQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJClassQuote.h; sourceTree = "<group>"; };
+		6F0766832282B3AB009A956D /* JJLoginUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginUser.h; sourceTree = "<group>"; };
+		6F0766842282B3AB009A956D /* JJLoginUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginUser.m; sourceTree = "<group>"; };
+		6F0766862282B6D7009A956D /* NSObject+HaveValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HaveValue.h"; sourceTree = "<group>"; };
+		6F0766872282B6D7009A956D /* NSObject+HaveValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HaveValue.m"; sourceTree = "<group>"; };
+		6F0766892282BC85009A956D /* JJSimpleData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSimpleData.h; sourceTree = "<group>"; };
+		6F07668A2282BC85009A956D /* JJSimpleData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSimpleData.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +74,6 @@
 		6FBAD19B227BCF39005F0A47 /* JJBaseTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJBaseTabBarVC.h; sourceTree = "<group>"; };
 		6FBAD19C227BCF39005F0A47 /* JJBaseTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBaseTabBarVC.m; sourceTree = "<group>"; };
 		6FBAD1A0227BCFCD005F0A47 /* JJMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMacro.h; sourceTree = "<group>"; };
-		6FBAD1A1227BCFE9005F0A47 /* JJClassQuote.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJClassQuote.h; sourceTree = "<group>"; };
 		6FBAD1A5227BD24E005F0A47 /* JJIndexPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJIndexPageVC.m; sourceTree = "<group>"; };
 		6FBAD1A6227BD24E005F0A47 /* JJIndexPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJIndexPageVC.h; sourceTree = "<group>"; };
 		6FBAD1A8227BD25A005F0A47 /* JJToolPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJToolPageVC.h; sourceTree = "<group>"; };
@@ -63,7 +81,6 @@
 		6FBAD1AB227BD26E005F0A47 /* JJMePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMePageVC.h; sourceTree = "<group>"; };
 		6FBAD1AC227BD26E005F0A47 /* JJMePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMePageVC.m; sourceTree = "<group>"; };
 		6FBAD1AE227BDA2D005F0A47 /* JJEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJEnum.h; sourceTree = "<group>"; };
-		6FBAD1AF227BDACB005F0A47 /* JJUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJUrl.h; sourceTree = "<group>"; };
 		6FBAD1B3227BDD5D005F0A47 /* YCHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCHttpTool.m; sourceTree = "<group>"; };
 		6FBAD1B4227BDD5D005F0A47 /* YCThreadSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCThreadSimple.h; sourceTree = "<group>"; };
 		6FBAD1B5227BDD5D005F0A47 /* YCAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCAnimationTool.h; sourceTree = "<group>"; };
@@ -105,6 +122,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6F07667C2282B211009A956D /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				6F0766802282B261009A956D /* JJUrl.h */,
+				6F07667D2282B225009A956D /* JJAFNetworking.h */,
+				6F07667E2282B225009A956D /* JJAFNetworking.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		6F0766822282B354009A956D /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+				6F0766832282B3AB009A956D /* JJLoginUser.h */,
+				6F0766842282B3AB009A956D /* JJLoginUser.m */,
+				6F0766892282BC85009A956D /* JJSimpleData.h */,
+				6F07668A2282BC85009A956D /* JJSimpleData.m */,
+			);
+			path = UserData;
+			sourceTree = "<group>";
+		};
 		6FBAD15C227BCC22005F0A47 = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +164,9 @@
 		6FBAD167227BCC22005F0A47 /* OCDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6FBAD182227BCEA9005F0A47 /* JJClass */,
+				6F0766822282B354009A956D /* UserData */,
+				6F07667C2282B211009A956D /* Http */,
+				6FBAD182227BCEA9005F0A47 /* JJClass(begin) */,
 				6FBAD180227BCE3D005F0A47 /* JJBase */,
 				6FBAD17F227BCE3D005F0A47 /* JJTool */,
 				6FBAD168227BCC22005F0A47 /* AppDelegate.h */,
@@ -157,9 +197,8 @@
 			children = (
 				6FBAD181227BCE3D005F0A47 /* JJClass */,
 				6FBAD1A0227BCFCD005F0A47 /* JJMacro.h */,
-				6FBAD1A1227BCFE9005F0A47 /* JJClassQuote.h */,
 				6FBAD1AE227BDA2D005F0A47 /* JJEnum.h */,
-				6FBAD1AF227BDACB005F0A47 /* JJUrl.h */,
+				6F0766812282B289009A956D /* JJClassQuote.h */,
 			);
 			path = JJBase;
 			sourceTree = "<group>";
@@ -177,7 +216,7 @@
 			path = JJClass;
 			sourceTree = "<group>";
 		};
-		6FBAD182227BCEA9005F0A47 /* JJClass */ = {
+		6FBAD182227BCEA9005F0A47 /* JJClass(begin) */ = {
 			isa = PBXGroup;
 			children = (
 				6FBAD1CE227BE31D005F0A47 /* Login */,
@@ -185,7 +224,7 @@
 				6FBAD188227BCEA9005F0A47 /* Index */,
 				6FBAD18D227BCEA9005F0A47 /* Tool */,
 			);
-			path = JJClass;
+			path = "JJClass(begin)";
 			sourceTree = "<group>";
 		};
 		6FBAD183227BCEA9005F0A47 /* Me */ = {
@@ -320,6 +359,8 @@
 				6FBAD1C7227BDFC4005F0A47 /* UIView+Frame.m */,
 				6FBAD1C5227BDFC4005F0A47 /* UIColor+hexColor.h */,
 				6FBAD1C6227BDFC4005F0A47 /* UIColor+hexColor.m */,
+				6F0766862282B6D7009A956D /* NSObject+HaveValue.h */,
+				6F0766872282B6D7009A956D /* NSObject+HaveValue.m */,
 			);
 			path = Catatogy;
 			sourceTree = "<group>";
@@ -335,6 +376,9 @@
 		6FBAD1B2227BDD5D005F0A47 /* YCTool */ = {
 			isa = PBXGroup;
 			children = (
+				6F0766772282A453009A956D /* public.cer */,
+				6F0766742282A01B009A956D /* APRequestSerializer.h */,
+				6F0766752282A01B009A956D /* APRequestSerializer.m */,
 				6FBAD1B9227BDD5D005F0A47 /* YCHttpTool.h */,
 				6FBAD1B3227BDD5D005F0A47 /* YCHttpTool.m */,
 				6FBAD1B4227BDD5D005F0A47 /* YCThreadSimple.h */,
@@ -461,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBAD175227BCC23005F0A47 /* LaunchScreen.storyboard in Resources */,
+				6F0766782282A453009A956D /* public.cer in Resources */,
 				6FBAD172227BCC23005F0A47 /* Assets.xcassets in Resources */,
 				6FBAD170227BCC22005F0A47 /* Main.storyboard in Resources */,
 			);
@@ -530,15 +575,20 @@
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
 				6FBAD1CD227BE0F2005F0A47 /* YCViewTool.m in Sources */,
 				6FBAD1C2227BDD5D005F0A47 /* YCAnimationTool.m in Sources */,
+				6F07667F2282B225009A956D /* JJAFNetworking.m in Sources */,
 				6FBAD1AA227BD25A005F0A47 /* JJToolPageVC.m in Sources */,
 				6FBAD19D227BCF39005F0A47 /* JJBaseTabBarVC.m in Sources */,
+				6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */,
 				6FBAD1C3227BDD5D005F0A47 /* YCThreadSimple.m in Sources */,
+				6F0766852282B3AB009A956D /* JJLoginUser.m in Sources */,
 				6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */,
+				6F0766762282A01B009A956D /* APRequestSerializer.m in Sources */,
 				6FBAD194227BCEC8005F0A47 /* JJBaseVC.m in Sources */,
 				6FBAD1BF227BDD5D005F0A47 /* YCHttpTool.m in Sources */,
 				6FBAD178227BCC23005F0A47 /* main.m in Sources */,
 				6FBAD1C9227BDFC4005F0A47 /* UIColor+hexColor.m in Sources */,
 				6FBAD1C0227BDD5D005F0A47 /* YCLoadAnimation.m in Sources */,
+				6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */,
 				6FBAD1C4227BDD5D005F0A47 /* YCUI.m in Sources */,
 				6FBAD1A7227BD24E005F0A47 /* JJIndexPageVC.m in Sources */,
 				6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */,

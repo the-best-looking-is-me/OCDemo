@@ -9,11 +9,8 @@
 #ifndef JJUrl_h
 #define JJUrl_h
 
-//#ifdef DEBUG
-//
-//#else
-//
-//#endif
+//登录 地址
+#define http_login @"/login/loginByPwd"
 
 
 #endif /* JJUrl_h */
