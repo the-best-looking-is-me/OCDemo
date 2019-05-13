@@ -105,14 +105,19 @@
     NSInteger minute =  [dateComponent minute];
     NSInteger second = [dateComponent second];
     
-    if ([symbol isEqualToString:@"-"]) {
-        
+    NSString *timeStr = @"";
+    if ([symbol isEqualToString:@"ymd-"]) {
+        timeStr = [NSString stringWithFormat:@"%zd%@%02zd%@%02zd",year,@"-",month,@"-",day];
+    }
+    else if ([symbol isEqualToString:@"-"]) {
+        timeStr = [NSString stringWithFormat:@"%zd%@%02zd%@%02zd %02zd:%02zd:%02zd",year,symbol,month,symbol,day,hour,minute,second];
     }else if ([symbol isEqualToString:@"/"]) {
-        
+        timeStr = [NSString stringWithFormat:@"%zd%@%02zd%@%02zd %02zd:%02zd:%02zd",year,symbol,month,symbol,day,hour,minute,second];
     }else {
         symbol = @"-";
+        timeStr = [NSString stringWithFormat:@"%zd%@%02zd%@%02zd %02zd:%02zd:%02zd",year,symbol,month,symbol,day,hour,minute,second];
     }
-    NSString *timeStr = [NSString stringWithFormat:@"%zd%@%02zd%@%02zd %02zd:%02zd:%02zd",year,symbol,month,symbol,day,hour,minute,second];
+    
     
     return timeStr;
 }

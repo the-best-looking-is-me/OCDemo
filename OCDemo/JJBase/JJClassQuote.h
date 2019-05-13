@@ -44,6 +44,7 @@
 #import "JJBaseTabBarVC.h"
 
 //工具类,分类
+#import "YCRuntimeTool.h"
 #import "NSObject+HaveValue.h"
 #import "YCHttpTool.h"
 #import "YCThreadSimple.h"

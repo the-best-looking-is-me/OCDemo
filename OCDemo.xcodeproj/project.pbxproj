@@ -13,6 +13,7 @@
 		6F0766852282B3AB009A956D /* JJLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766842282B3AB009A956D /* JJLoginUser.m */; };
 		6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766872282B6D7009A956D /* NSObject+HaveValue.m */; };
 		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
+		6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668D2282C41A009A956D /* YCRuntimeTool.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
@@ -54,6 +55,8 @@
 		6F0766872282B6D7009A956D /* NSObject+HaveValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HaveValue.m"; sourceTree = "<group>"; };
 		6F0766892282BC85009A956D /* JJSimpleData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSimpleData.h; sourceTree = "<group>"; };
 		6F07668A2282BC85009A956D /* JJSimpleData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSimpleData.m; sourceTree = "<group>"; };
+		6F07668C2282C41A009A956D /* YCRuntimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCRuntimeTool.h; sourceTree = "<group>"; };
+		6F07668D2282C41A009A956D /* YCRuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRuntimeTool.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -393,6 +396,8 @@
 				6FBAD1BE227BDD5D005F0A47 /* YCUI.m */,
 				6FBAD1CB227BE0F2005F0A47 /* YCViewTool.h */,
 				6FBAD1CC227BE0F2005F0A47 /* YCViewTool.m */,
+				6F07668C2282C41A009A956D /* YCRuntimeTool.h */,
+				6F07668D2282C41A009A956D /* YCRuntimeTool.m */,
 			);
 			path = YCTool;
 			sourceTree = "<group>";
@@ -572,6 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
+				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
 				6FBAD1CD227BE0F2005F0A47 /* YCViewTool.m in Sources */,
 				6FBAD1C2227BDD5D005F0A47 /* YCAnimationTool.m in Sources */,
