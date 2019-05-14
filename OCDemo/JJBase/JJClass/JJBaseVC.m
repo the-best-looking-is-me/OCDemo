@@ -8,6 +8,7 @@
 
 #import "JJBaseVC.h"
 
+
 @interface JJBaseVC ()
 
 @end
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
 }
 
 /*

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3873BDD29B5D7207817A10548C30A464"
-               BuildableName = "libYYKit.a"
-               BlueprintName = "YYKit"
+               BlueprintIdentifier = "AAA20D6580A69D53B639905E1F17F9E2"
+               BuildableName = "libJZNavigationExtension.a"
+               BlueprintName = "JZNavigationExtension"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -15,43 +15,67 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-//    [JJAFNetworking jj_login:@{@"mobile":@"13272050521",@"password":@"snjj2011"} block:^(id  _Nonnull sth, id  _Nonnull sth2) {
-//        
-//    }];
     
-    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    _window.backgroundColor = [UIColor whiteColor];
-    [_window makeKeyAndVisible];
-    _window.rootViewController = [[JJBaseTabBarVC alloc]init];
+    if ([self isLogin]) {
+        [self enter_mainVC];
+    }else {
+        [self enter_loginVC];
+    }
     
     return YES;
 }
 
+
+/**
+ 判断是否已经登录过
+
+ @return YES：登录过
+ */
+- (BOOL)isLogin{
+    return NO;
+}
+
+/**
+ 进登录页
+ */
+- (void)enter_loginVC{
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    _window.rootViewController = [[JJBaseNaviVC alloc] initWithRootViewController:[JJLoginVC new]];
+}
+
+
+/**
+ 进主页面
+ */
+- (void)enter_mainVC{
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    _window.rootViewController = [[JJBaseTabBarVC alloc]init];
+}
+
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
 }
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
 }
 
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
 

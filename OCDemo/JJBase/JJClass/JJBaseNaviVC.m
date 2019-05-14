@@ -8,6 +8,10 @@
 
 #import "JJBaseNaviVC.h"
 
+#define JJBaseVC_navibgColor [UIColor redColor]
+//#define JJBaseVC_navibgColor [UIColor whiteColor]
+
+
 @interface JJBaseNaviVC ()
 
 @end
@@ -17,15 +21,9 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    
 }
-+ (void)initialize
-{
-    //UIImage *bg = [UIImage imageNamed:@"navigationbarBackgroundWhite"];
-    //    UINavigationBar *bar = [UINavigationBar appearance];
-    //[bar setTintColor:[UIColor blackColor]];
-    //[bar setBackgroundImage:bg forBarMetrics:UIBarMetricsDefault];
-    //[bar setTitleTextAttributes:@{NSFontAttributeName : [UIFont boldSystemFontOfSize:20]}];
-}
++ (void)initialize{}
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
@@ -36,7 +34,7 @@
         [button setImage:[UIImage imageNamed:@"navi_navigationButtonReturn"] forState:UIControlStateNormal];
         //[button setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
         button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-        [button setTitle:@"返回" forState:UIControlStateNormal];
+        [button setTitle:@"" forState:UIControlStateNormal];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
         [button addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];

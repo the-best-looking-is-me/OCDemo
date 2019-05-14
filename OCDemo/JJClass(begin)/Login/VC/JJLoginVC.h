@@ -1,17 +1,16 @@
 //
-//  JJBaseVC.h
+//  JJLoginVC.h
 //  OCDemo
 //
-//  Created by yangchang on 2019/5/3.
+//  Created by yangchang on 2019/5/13.
 //  Copyright © 2019 yangchang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JJBaseVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JJBaseVC : UIViewController
-
+@interface JJLoginVC : JJBaseVC
 
 @end
 

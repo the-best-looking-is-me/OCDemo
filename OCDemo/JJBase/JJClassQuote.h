@@ -31,6 +31,7 @@
 #import <Canvas.h>
 #import <UITextView+Placeholder.h>
 #import <YYKit.h>
+#import <JZNavigationExtension.h>
 
 //宏
 #import "JJMacro.h"
@@ -62,6 +63,7 @@
 #import "JJToolPageVC.h"
 #import "JJIndexPageVC.h"
 #import "JJMePageVC.h"
+#import "JJLoginVC.h"
 
 //view类
 

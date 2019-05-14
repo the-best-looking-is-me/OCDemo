@@ -15,6 +15,7 @@
 		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
 		6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668D2282C41A009A956D /* YCRuntimeTool.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
+		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
 		6FBAD170227BCC22005F0A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBAD16E227BCC22005F0A47 /* Main.storyboard */; };
@@ -59,6 +60,8 @@
 		6F07668D2282C41A009A956D /* YCRuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRuntimeTool.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		6F539C0D228948B200775579 /* JJLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginVC.h; sourceTree = "<group>"; };
+		6F539C0E228948B200775579 /* JJLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginVC.m; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBAD168227BCC22005F0A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FBAD169227BCC22005F0A47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -423,6 +426,8 @@
 		6FBAD1D0227BE31D005F0A47 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				6F539C0D228948B200775579 /* JJLoginVC.h */,
+				6F539C0E228948B200775579 /* JJLoginVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -596,6 +601,7 @@
 				6FBAD1C0227BDD5D005F0A47 /* YCLoadAnimation.m in Sources */,
 				6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */,
 				6FBAD1C4227BDD5D005F0A47 /* YCUI.m in Sources */,
+				6F539C0F228948B200775579 /* JJLoginVC.m in Sources */,
 				6FBAD1A7227BD24E005F0A47 /* JJIndexPageVC.m in Sources */,
 				6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */,
 				6FBAD1CA227BDFC4005F0A47 /* UIView+Frame.m in Sources */,
