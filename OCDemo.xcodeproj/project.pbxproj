@@ -15,6 +15,7 @@
 		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
 		6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668D2282C41A009A956D /* YCRuntimeTool.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
+		6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
@@ -60,6 +61,8 @@
 		6F07668D2282C41A009A956D /* YCRuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRuntimeTool.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		6F306640228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		6F539C0D228948B200775579 /* JJLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginVC.h; sourceTree = "<group>"; };
 		6F539C0E228948B200775579 /* JJLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginVC.m; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -367,6 +370,8 @@
 				6FBAD1C6227BDFC4005F0A47 /* UIColor+hexColor.m */,
 				6F0766862282B6D7009A956D /* NSObject+HaveValue.h */,
 				6F0766872282B6D7009A956D /* NSObject+HaveValue.m */,
+				6F306640228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = Catatogy;
 			sourceTree = "<group>";
@@ -584,6 +589,7 @@
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
 				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
+				6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				6FBAD1CD227BE0F2005F0A47 /* YCViewTool.m in Sources */,
 				6FBAD1C2227BDD5D005F0A47 /* YCAnimationTool.m in Sources */,
 				6F07667F2282B225009A956D /* JJAFNetworking.m in Sources */,

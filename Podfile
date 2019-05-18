@@ -18,6 +18,5 @@ target 'OCDemo' do
  pod 'Canvas'
  pod 'UITextView+Placeholder'
  pod 'YYKit'
- pod 'JZNavigationExtension'
  
 end

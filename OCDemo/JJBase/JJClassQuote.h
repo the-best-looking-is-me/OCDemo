@@ -31,7 +31,6 @@
 #import <Canvas.h>
 #import <UITextView+Placeholder.h>
 #import <YYKit.h>
-#import <JZNavigationExtension.h>
 
 //宏
 #import "JJMacro.h"
@@ -45,6 +44,7 @@
 #import "JJBaseTabBarVC.h"
 
 //工具类,分类
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "YCRuntimeTool.h"
 #import "NSObject+HaveValue.h"
 #import "YCHttpTool.h"

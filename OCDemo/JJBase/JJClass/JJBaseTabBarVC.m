@@ -21,7 +21,6 @@
     attrs[NSForegroundColorAttributeName] = [UIColor blueColor];
     [appearance setTitleTextAttributes:attrs forState:UIControlStateSelected];
     
-    //    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar-light"]];
 }
 
 
