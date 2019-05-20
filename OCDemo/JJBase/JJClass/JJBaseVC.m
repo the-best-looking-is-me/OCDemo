@@ -19,16 +19,22 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    self.extendedLayoutIncludesOpaqueBars = YES;
+    if (@available(iOS 11.0, *)) {
+    }else {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    
+    UIView *barImageView = self.navigationController.navigationBar.subviews.firstObject;
+    barImageView.backgroundColor = [UIColor clearColor];
+    _naviView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, SafeAreaTopHeight)];
+    _naviView.backgroundColor = [UIColor yellowColor];
+    _naviView.alpha = 0;
+    [self.view addSubview:_naviView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)naviViewToFont{
+    [self.view bringSubviewToFront:_naviView];
 }
-*/
 
 @end

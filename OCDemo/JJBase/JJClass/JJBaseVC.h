@@ -10,8 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JJBaseVC : UIViewController
+@interface JJBaseVC : UIViewController{
+    UIView *_naviView;
+}
 
+//导航条View
+@property (nonatomic,strong) UIView *naviView;
+
+//把导航条View拿到最前面
+- (void)naviViewToFont;
 
 @end
 

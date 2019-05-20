@@ -14,8 +14,11 @@
 + (instancetype)sharedManager;
 
 
+//shahu
 - (void)getHttp:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block;
 - (void)postHttp:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block;
 
+//test
++ (NSURLSessionDataTask *)getHttpNormal:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block;
 
 @end

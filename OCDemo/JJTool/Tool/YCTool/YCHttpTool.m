@@ -240,5 +240,26 @@
     
 }
 
++ (NSURLSessionDataTask *)getHttpNormal:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block{
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    //申明返回的结果是json类型
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    //申明请求的数据是json类型
+    manager.requestSerializer=[AFJSONRequestSerializer serializer];
+    //如果报接受类型不一致请替换一致text/html或别的
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"text/plain",@"application/json",@"text/json", nil];
+    return [manager GET:url parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        if (block) {
+            block(responseObject,nil);
+        }
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        if (block) {
+            block(nil,error);
+        }
+    }];
+}
+
+
+
 
 @end

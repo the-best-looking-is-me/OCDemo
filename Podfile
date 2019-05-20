@@ -18,5 +18,6 @@ target 'OCDemo' do
  pod 'Canvas'
  pod 'UITextView+Placeholder'
  pod 'YYKit'
- 
+ pod 'CYLTabBarController', '~> 1.24.0'
+ pod 'HHTransition', '~> 1.2.0'
 end

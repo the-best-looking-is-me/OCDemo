@@ -15,7 +15,15 @@
 		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
 		6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668D2282C41A009A956D /* YCRuntimeTool.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
+		6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B3228FEDE40002A797 /* YCTEST.m */; };
+		6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B6228FF4680002A797 /* JJTModel.m */; };
+		6F2B78BA228FFD3B0002A797 /* JJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */; };
+		6F2B78C1229246BB0002A797 /* JsonToPropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C0229246BB0002A797 /* JsonToPropertyVC.m */; };
+		6F2B78C4229247700002A797 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C3229247700002A797 /* TableViewVC.m */; };
+		6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C6229247B90002A797 /* CollectionViewVC.m */; };
+		6F2B78CA22924EF00002A797 /* JsonToPropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C922924EF00002A797 /* JsonToPropertyModel.m */; };
 		6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		6F306644228FC2060093BA74 /* JJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306643228FC2060093BA74 /* JJBaseTableView.m */; };
 		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
@@ -61,8 +69,24 @@
 		6F07668D2282C41A009A956D /* YCRuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRuntimeTool.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		6F2B78B2228FEDE40002A797 /* YCTEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTEST.h; sourceTree = "<group>"; };
+		6F2B78B3228FEDE40002A797 /* YCTEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTEST.m; sourceTree = "<group>"; };
+		6F2B78B5228FF4680002A797 /* JJTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTModel.h; sourceTree = "<group>"; };
+		6F2B78B6228FF4680002A797 /* JJTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTModel.m; sourceTree = "<group>"; };
+		6F2B78B8228FFD3B0002A797 /* JJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewCell.h; sourceTree = "<group>"; };
+		6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewCell.m; sourceTree = "<group>"; };
+		6F2B78BF229246BB0002A797 /* JsonToPropertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToPropertyVC.h; sourceTree = "<group>"; };
+		6F2B78C0229246BB0002A797 /* JsonToPropertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToPropertyVC.m; sourceTree = "<group>"; };
+		6F2B78C2229247700002A797 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
+		6F2B78C3229247700002A797 /* TableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewVC.m; sourceTree = "<group>"; };
+		6F2B78C5229247B90002A797 /* CollectionViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewVC.h; sourceTree = "<group>"; };
+		6F2B78C6229247B90002A797 /* CollectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewVC.m; sourceTree = "<group>"; };
+		6F2B78C822924EF00002A797 /* JsonToPropertyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToPropertyModel.h; sourceTree = "<group>"; };
+		6F2B78C922924EF00002A797 /* JsonToPropertyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToPropertyModel.m; sourceTree = "<group>"; };
 		6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		6F306640228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6F306642228FC2060093BA74 /* JJBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJBaseTableView.h; sourceTree = "<group>"; };
+		6F306643228FC2060093BA74 /* JJBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBaseTableView.m; sourceTree = "<group>"; };
 		6F539C0D228948B200775579 /* JJLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginVC.h; sourceTree = "<group>"; };
 		6F539C0E228948B200775579 /* JJLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginVC.m; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +176,45 @@
 			path = UserData;
 			sourceTree = "<group>";
 		};
+		6F2B78BB229246A10002A797 /* Alldemo */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B78BC229246A10002A797 /* JsonToProperty */,
+				6F2B78BD229246A10002A797 /* TableView */,
+				6F2B78BE229246A10002A797 /* CollectionView */,
+			);
+			path = Alldemo;
+			sourceTree = "<group>";
+		};
+		6F2B78BC229246A10002A797 /* JsonToProperty */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B78BF229246BB0002A797 /* JsonToPropertyVC.h */,
+				6F2B78C0229246BB0002A797 /* JsonToPropertyVC.m */,
+				6F2B78C822924EF00002A797 /* JsonToPropertyModel.h */,
+				6F2B78C922924EF00002A797 /* JsonToPropertyModel.m */,
+			);
+			path = JsonToProperty;
+			sourceTree = "<group>";
+		};
+		6F2B78BD229246A10002A797 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B78C2229247700002A797 /* TableViewVC.h */,
+				6F2B78C3229247700002A797 /* TableViewVC.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		6F2B78BE229246A10002A797 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B78C5229247B90002A797 /* CollectionViewVC.h */,
+				6F2B78C6229247B90002A797 /* CollectionViewVC.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		6FBAD15C227BCC22005F0A47 = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +284,8 @@
 				6FBAD199227BCF27005F0A47 /* JJBaseNaviVC.m */,
 				6FBAD19B227BCF39005F0A47 /* JJBaseTabBarVC.h */,
 				6FBAD19C227BCF39005F0A47 /* JJBaseTabBarVC.m */,
+				6F306642228FC2060093BA74 /* JJBaseTableView.h */,
+				6F306643228FC2060093BA74 /* JJBaseTableView.m */,
 			);
 			path = JJClass;
 			sourceTree = "<group>";
@@ -228,6 +293,7 @@
 		6FBAD182227BCEA9005F0A47 /* JJClass(begin) */ = {
 			isa = PBXGroup;
 			children = (
+				6F2B78BB229246A10002A797 /* Alldemo */,
 				6FBAD1CE227BE31D005F0A47 /* Login */,
 				6FBAD183227BCEA9005F0A47 /* Me */,
 				6FBAD188227BCEA9005F0A47 /* Index */,
@@ -291,6 +357,8 @@
 		6FBAD189227BCEA9005F0A47 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				6F2B78B8228FFD3B0002A797 /* JJTableViewCell.h */,
+				6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -307,6 +375,8 @@
 		6FBAD18B227BCEA9005F0A47 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6F2B78B5228FF4680002A797 /* JJTModel.h */,
+				6F2B78B6228FF4680002A797 /* JJTModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -406,6 +476,8 @@
 				6FBAD1CC227BE0F2005F0A47 /* YCViewTool.m */,
 				6F07668C2282C41A009A956D /* YCRuntimeTool.h */,
 				6F07668D2282C41A009A956D /* YCRuntimeTool.m */,
+				6F2B78B2228FEDE40002A797 /* YCTEST.h */,
+				6F2B78B3228FEDE40002A797 /* YCTEST.m */,
 			);
 			path = YCTool;
 			sourceTree = "<group>";
@@ -587,12 +659,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
+				6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */,
+				6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */,
 				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
+				6F2B78CA22924EF00002A797 /* JsonToPropertyModel.m in Sources */,
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
 				6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				6FBAD1CD227BE0F2005F0A47 /* YCViewTool.m in Sources */,
 				6FBAD1C2227BDD5D005F0A47 /* YCAnimationTool.m in Sources */,
+				6F306644228FC2060093BA74 /* JJBaseTableView.m in Sources */,
+				6F2B78C1229246BB0002A797 /* JsonToPropertyVC.m in Sources */,
 				6F07667F2282B225009A956D /* JJAFNetworking.m in Sources */,
+				6F2B78BA228FFD3B0002A797 /* JJTableViewCell.m in Sources */,
 				6FBAD1AA227BD25A005F0A47 /* JJToolPageVC.m in Sources */,
 				6FBAD19D227BCF39005F0A47 /* JJBaseTabBarVC.m in Sources */,
 				6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */,
@@ -603,6 +681,7 @@
 				6FBAD194227BCEC8005F0A47 /* JJBaseVC.m in Sources */,
 				6FBAD1BF227BDD5D005F0A47 /* YCHttpTool.m in Sources */,
 				6FBAD178227BCC23005F0A47 /* main.m in Sources */,
+				6F2B78C4229247700002A797 /* TableViewVC.m in Sources */,
 				6FBAD1C9227BDFC4005F0A47 /* UIColor+hexColor.m in Sources */,
 				6FBAD1C0227BDD5D005F0A47 /* YCLoadAnimation.m in Sources */,
 				6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */,
@@ -611,6 +690,7 @@
 				6FBAD1A7227BD24E005F0A47 /* JJIndexPageVC.m in Sources */,
 				6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */,
 				6FBAD1CA227BDFC4005F0A47 /* UIView+Frame.m in Sources */,
+				6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */,
 				6FBAD19A227BCF27005F0A47 /* JJBaseNaviVC.m in Sources */,
 				6FBAD1C1227BDD5D005F0A47 /* YCAnalysis.m in Sources */,
 			);
@@ -756,6 +836,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT7PQ3D7PW;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = OCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -763,7 +844,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.snjj2011.www.OCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -775,6 +856,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AT7PQ3D7PW;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OCDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = OCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -782,7 +864,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.snjj2011.www.OCDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

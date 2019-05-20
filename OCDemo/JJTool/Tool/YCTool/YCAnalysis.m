@@ -221,4 +221,49 @@
 
 
 
+/**
+ 字典转模型属性申明
+ 
+ @param dic 字典集合
+ @param isYes 子字典是否生成对象id型
+ @return 已属性申明字符串
+ */
++ (NSString *)objectCreateProperty:(NSDictionary *)dic DicUseID:(BOOL)isYes{
+    NSArray *keys = [dic allKeys];
+    NSMutableString *mustr = [NSMutableString string];
+    for (NSInteger i=0; i<keys.count; i++) {
+        id value = dic[keys[i]];
+        NSString *writeStr = @"";
+        if ([value isKindOfClass:[NSDictionary class]]) {
+            if (isYes) {
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,strong) id %@;",keys[i]];
+            }else {
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,copy) NSDictionary * %@;",keys[i]];
+            }
+        }else if ([value isKindOfClass:[NSArray class]]) {
+            writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,copy) NSArray * %@;",keys[i]];
+        }else if ([value isKindOfClass:[NSString class]]) {
+            writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,copy) NSString * %@;",keys[i]];
+        }else if ([value isKindOfClass:[NSNumber class]]) {
+            if (strcmp([value objCType], @encode(float)) == 0){
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,assign) CGFloat %@;",keys[i]];
+            }else if (strcmp([value objCType], @encode(double)) == 0){
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,assign) CGFloat %@;",keys[i]];
+            }else if (strcmp([value objCType], @encode(int)) == 0){
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,assign) NSInteger %@;",keys[i]];
+            }else if (strcmp([value objCType], @encode(BOOL)) == 0){
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,assign) BOOL %@;",keys[i]];
+            }else if (strcmp([value objCType], @encode(long)) == 0){
+                writeStr = [NSString stringWithFormat:@"\n@property (nonatomic,assign) NSInteger %@;",keys[i]];
+            }
+        }
+        [mustr appendString:writeStr];
+    }
+    
+    NSLog(@"\n %@",mustr);
+    
+    return mustr;
+}
+
+
 @end

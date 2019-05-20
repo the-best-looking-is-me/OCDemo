@@ -100,7 +100,14 @@
  */
 + (NSString *)object_toJSONStringWithDictionary:(NSDictionary *)dic;
 
-
+/**
+ 字典转模型属性申明
+ 
+ @param dic 字典集合
+ @param isYes 子字典是否生成对象id型
+ @return 已属性申明字符串
+ */
++ (NSString *)objectCreateProperty:(NSDictionary *)dic DicUseID:(BOOL)isYes;
 
 
 @end

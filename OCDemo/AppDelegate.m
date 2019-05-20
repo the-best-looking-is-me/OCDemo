@@ -16,6 +16,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+
     if ([self isLogin]) {
         [self enter_mainVC];
     }else {
@@ -32,7 +33,7 @@
  @return YES：登录过
  */
 - (BOOL)isLogin{
-    return NO;
+    return YES;
 }
 
 /**

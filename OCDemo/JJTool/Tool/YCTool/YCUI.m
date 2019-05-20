@@ -23,7 +23,9 @@
     view.alpha = alpha;
     view.layer.cornerRadius = cornerRadius;
     view.layer.borderWidth = borderWidth;
-    view.layer.borderColor = borderColor.CGColor;
+    if (borderColor) {    
+        view.layer.borderColor = borderColor.CGColor;
+    }
     return view;
 }
 
@@ -249,6 +251,11 @@
 + (UITableView *)ui_tableView:(CGRect)rect style:(UITableViewStyle)style backColor:(UIColor *)backColor delegate:(id)sth registerDic:(NSDictionary *)registerDic{
     
     UITableView *tableView = [[UITableView alloc]initWithFrame:rect style:style];
+    
+    if (@available(iOS 11.0, *)) {
+        tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }
+    
     tableView.frame = rect;
     
     tableView.estimatedRowHeight = 0;
