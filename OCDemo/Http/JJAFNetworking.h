@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 //登录
 + (void)jj_login:(NSDictionary *)dic block:(void(^)(id sth,id sth2))block;
 
+//ios版本
++ (void)jj_fetchIosVersionBlock:(void(^)(id sth,id sth2))block;
+
 
 @end
 

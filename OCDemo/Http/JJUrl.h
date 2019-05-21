@@ -12,5 +12,8 @@
 //登录 地址
 #define http_login @"/login/loginByPwd"
 
+//ios版本号
+#define http_fetchIosVersion @"/sys/fetchIosVersion"
+
 
 #endif /* JJUrl_h */

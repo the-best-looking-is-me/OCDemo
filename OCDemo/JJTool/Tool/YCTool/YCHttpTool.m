@@ -54,7 +54,7 @@
     static YCHttpTool *instance;
     dispatch_once(&onceToken, ^{
         instance = [[YCHttpTool manager] initWithBaseURL:[NSURL URLWithString:[YCHttpTool baseUrl]]];
-        
+
         if ([self testInfo] == 1) {
             //测试环境不添加https证书认证
         }else {
@@ -89,7 +89,7 @@
 //在此方法里面添加请求公共参数
 - (NSDictionary *)headerParameters{
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
-    
+
 #pragma mark - 如有需要这儿需要配置
     /*
     if (self.loginModel && [self.loginModel.token isNotBlank]) {
@@ -97,7 +97,7 @@
         [parameters setObject:@(self.loginModel.userId) forKey:@"uid"];
     }
     */
-    
+
     //请求时间
     long long timestamp =  [[NSDate date] timeIntervalSince1970] * 1000;
     [parameters setObject:[NSString stringWithFormat:@"%lld",timestamp] forKey:@"timestamp"];
@@ -118,7 +118,7 @@
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     [parameters setObject:version forKey:@"appVersion"];
     //发布渠道
-    
+
     if ([YCHttpTool testInfo] == 1) {
         [parameters setObject:@"DEBUG" forKey:@"releaseChannel"];
     }else {
@@ -166,22 +166,22 @@
 #pragma 公共方法get post
 
 - (void)getHttp:(NSString *)url dic:(NSDictionary *)parameters block:(void(^)(id sth,id sth2))block{
-    
+
     NSString *requestString = @"";
     requestString = [YCHttpTool baseUrl];
     requestString = [NSString stringWithFormat:@"%@%@",requestString,url];
-    
+
     NSMutableDictionary *requestParameters = [NSMutableDictionary dictionary];
-    
+
     //添加公共参数
     NSDictionary *headParameters = [self headerParameters];
     [requestParameters addEntriesFromDictionary:headParameters];
-    
+
     //添加请求参数
     if (parameters && parameters.count > 0) {
         [requestParameters addEntriesFromDictionary:parameters];
     }
-    
+
     if ([YCHttpTool testInfo] == 1) {
         //debug模式下不添加sign参数
     }else {
@@ -190,10 +190,10 @@
             [requestParameters setObject:signature forKey:@"sign"];
         }
     }
-    
+
     NSLog(@"\n *********** \n%@get地址 = %@\n *********** \n参数 = %@",[YCHttpTool chineseUrl],requestString,requestParameters);
     [self GET:requestString parameters:requestParameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
+
         if (block) {
             block(responseObject,nil);
         }

@@ -46,6 +46,7 @@
 #import "JJBaseNaviVC.h"
 #import "JJBaseTabBarVC.h"
 #import "JJBaseTableView.h"
+#import "JJCollectionView.h"
 
 //工具类,分类
 #import "UINavigationController+FDFullscreenPopGesture.h"
@@ -62,6 +63,7 @@
 #import "UIColor+hexColor.h"
 #import "UIImageView+CornerRadius.h"
 #import "JJAFNetworking.h"
+#import "UIButton+ColorButton.h"
 
 //控制器
 #import "JJToolPageVC.h"

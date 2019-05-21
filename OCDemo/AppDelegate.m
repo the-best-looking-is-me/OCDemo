@@ -33,13 +33,14 @@
  @return YES：登录过
  */
 - (BOOL)isLogin{
-    return YES;
+    return NO;
 }
 
 /**
  进登录页
  */
 - (void)enter_loginVC{
+    
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];

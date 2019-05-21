@@ -47,7 +47,7 @@
     _img.frame = CGRectMake(0, 0, 40,40);
     _img.center = CGPointMake(12 + _img.Width * 0.5, h * 0.5);
     
-    _label.frame = CGRectMake(_img.MaxX + 4, _img.center.y - 21 * 0.5, w - _img.MaxX - 4, 21);
+    _label.frame = CGRectMake(_img.MaxX + 4, _img.center.y - 21 * 0.5, 200, 21);
 }
 
 - (void)refreshUI:(JJTModel *)model{

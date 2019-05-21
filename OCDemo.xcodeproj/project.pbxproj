@@ -17,11 +17,14 @@
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
 		6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B3228FEDE40002A797 /* YCTEST.m */; };
 		6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B6228FF4680002A797 /* JJTModel.m */; };
-		6F2B78BA228FFD3B0002A797 /* JJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */; };
 		6F2B78C1229246BB0002A797 /* JsonToPropertyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C0229246BB0002A797 /* JsonToPropertyVC.m */; };
 		6F2B78C4229247700002A797 /* TableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C3229247700002A797 /* TableViewVC.m */; };
 		6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C6229247B90002A797 /* CollectionViewVC.m */; };
 		6F2B78CA22924EF00002A797 /* JsonToPropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78C922924EF00002A797 /* JsonToPropertyModel.m */; };
+		6F2B78D322938A7E0002A797 /* JJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78D222938A7E0002A797 /* JJTableViewCell.m */; };
+		6F2B78D622938ACA0002A797 /* JJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78D522938ACA0002A797 /* JJCollectionViewCell.m */; };
+		6F2B78D922938AF30002A797 /* JJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78D822938AF30002A797 /* JJCollectionView.m */; };
+		6F2B78DC229395B20002A797 /* UIButton+ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78DA229395B20002A797 /* UIButton+ColorButton.m */; };
 		6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		6F306644228FC2060093BA74 /* JJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306643228FC2060093BA74 /* JJBaseTableView.m */; };
 		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
@@ -73,8 +76,6 @@
 		6F2B78B3228FEDE40002A797 /* YCTEST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTEST.m; sourceTree = "<group>"; };
 		6F2B78B5228FF4680002A797 /* JJTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTModel.h; sourceTree = "<group>"; };
 		6F2B78B6228FF4680002A797 /* JJTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTModel.m; sourceTree = "<group>"; };
-		6F2B78B8228FFD3B0002A797 /* JJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewCell.h; sourceTree = "<group>"; };
-		6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewCell.m; sourceTree = "<group>"; };
 		6F2B78BF229246BB0002A797 /* JsonToPropertyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToPropertyVC.h; sourceTree = "<group>"; };
 		6F2B78C0229246BB0002A797 /* JsonToPropertyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToPropertyVC.m; sourceTree = "<group>"; };
 		6F2B78C2229247700002A797 /* TableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewVC.h; sourceTree = "<group>"; };
@@ -83,6 +84,14 @@
 		6F2B78C6229247B90002A797 /* CollectionViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewVC.m; sourceTree = "<group>"; };
 		6F2B78C822924EF00002A797 /* JsonToPropertyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JsonToPropertyModel.h; sourceTree = "<group>"; };
 		6F2B78C922924EF00002A797 /* JsonToPropertyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToPropertyModel.m; sourceTree = "<group>"; };
+		6F2B78D122938A7E0002A797 /* JJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewCell.h; sourceTree = "<group>"; };
+		6F2B78D222938A7E0002A797 /* JJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewCell.m; sourceTree = "<group>"; };
+		6F2B78D422938ACA0002A797 /* JJCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCollectionViewCell.h; sourceTree = "<group>"; };
+		6F2B78D522938ACA0002A797 /* JJCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCollectionViewCell.m; sourceTree = "<group>"; };
+		6F2B78D722938AF30002A797 /* JJCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJCollectionView.h; sourceTree = "<group>"; };
+		6F2B78D822938AF30002A797 /* JJCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJCollectionView.m; sourceTree = "<group>"; };
+		6F2B78DA229395B20002A797 /* UIButton+ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ColorButton.m"; sourceTree = "<group>"; };
+		6F2B78DB229395B20002A797 /* UIButton+ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ColorButton.h"; sourceTree = "<group>"; };
 		6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		6F306640228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		6F306642228FC2060093BA74 /* JJBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJBaseTableView.h; sourceTree = "<group>"; };
@@ -176,9 +185,17 @@
 			path = UserData;
 			sourceTree = "<group>";
 		};
+		6F19DD9D2293C7BE006D2518 /* MansoryUse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MansoryUse;
+			sourceTree = "<group>";
+		};
 		6F2B78BB229246A10002A797 /* Alldemo */ = {
 			isa = PBXGroup;
 			children = (
+				6F19DD9D2293C7BE006D2518 /* MansoryUse */,
 				6F2B78BC229246A10002A797 /* JsonToProperty */,
 				6F2B78BD229246A10002A797 /* TableView */,
 				6F2B78BE229246A10002A797 /* CollectionView */,
@@ -202,6 +219,8 @@
 			children = (
 				6F2B78C2229247700002A797 /* TableViewVC.h */,
 				6F2B78C3229247700002A797 /* TableViewVC.m */,
+				6F2B78D122938A7E0002A797 /* JJTableViewCell.h */,
+				6F2B78D222938A7E0002A797 /* JJTableViewCell.m */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -211,6 +230,8 @@
 			children = (
 				6F2B78C5229247B90002A797 /* CollectionViewVC.h */,
 				6F2B78C6229247B90002A797 /* CollectionViewVC.m */,
+				6F2B78D422938ACA0002A797 /* JJCollectionViewCell.h */,
+				6F2B78D522938ACA0002A797 /* JJCollectionViewCell.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -286,6 +307,8 @@
 				6FBAD19C227BCF39005F0A47 /* JJBaseTabBarVC.m */,
 				6F306642228FC2060093BA74 /* JJBaseTableView.h */,
 				6F306643228FC2060093BA74 /* JJBaseTableView.m */,
+				6F2B78D722938AF30002A797 /* JJCollectionView.h */,
+				6F2B78D822938AF30002A797 /* JJCollectionView.m */,
 			);
 			path = JJClass;
 			sourceTree = "<group>";
@@ -357,8 +380,6 @@
 		6FBAD189227BCEA9005F0A47 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				6F2B78B8228FFD3B0002A797 /* JJTableViewCell.h */,
-				6F2B78B9228FFD3B0002A797 /* JJTableViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -442,6 +463,8 @@
 				6F0766872282B6D7009A956D /* NSObject+HaveValue.m */,
 				6F306640228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.h */,
 				6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */,
+				6F2B78DB229395B20002A797 /* UIButton+ColorButton.h */,
+				6F2B78DA229395B20002A797 /* UIButton+ColorButton.m */,
 			);
 			path = Catatogy;
 			sourceTree = "<group>";
@@ -662,6 +685,7 @@
 				6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */,
 				6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */,
 				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
+				6F2B78D922938AF30002A797 /* JJCollectionView.m in Sources */,
 				6F2B78CA22924EF00002A797 /* JsonToPropertyModel.m in Sources */,
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
 				6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
@@ -670,7 +694,6 @@
 				6F306644228FC2060093BA74 /* JJBaseTableView.m in Sources */,
 				6F2B78C1229246BB0002A797 /* JsonToPropertyVC.m in Sources */,
 				6F07667F2282B225009A956D /* JJAFNetworking.m in Sources */,
-				6F2B78BA228FFD3B0002A797 /* JJTableViewCell.m in Sources */,
 				6FBAD1AA227BD25A005F0A47 /* JJToolPageVC.m in Sources */,
 				6FBAD19D227BCF39005F0A47 /* JJBaseTabBarVC.m in Sources */,
 				6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */,
@@ -683,14 +706,17 @@
 				6FBAD178227BCC23005F0A47 /* main.m in Sources */,
 				6F2B78C4229247700002A797 /* TableViewVC.m in Sources */,
 				6FBAD1C9227BDFC4005F0A47 /* UIColor+hexColor.m in Sources */,
+				6F2B78DC229395B20002A797 /* UIButton+ColorButton.m in Sources */,
 				6FBAD1C0227BDD5D005F0A47 /* YCLoadAnimation.m in Sources */,
 				6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */,
 				6FBAD1C4227BDD5D005F0A47 /* YCUI.m in Sources */,
 				6F539C0F228948B200775579 /* JJLoginVC.m in Sources */,
+				6F2B78D622938ACA0002A797 /* JJCollectionViewCell.m in Sources */,
 				6FBAD1A7227BD24E005F0A47 /* JJIndexPageVC.m in Sources */,
 				6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */,
 				6FBAD1CA227BDFC4005F0A47 /* UIView+Frame.m in Sources */,
 				6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */,
+				6F2B78D322938A7E0002A797 /* JJTableViewCell.m in Sources */,
 				6FBAD19A227BCF27005F0A47 /* JJBaseNaviVC.m in Sources */,
 				6FBAD1C1227BDD5D005F0A47 /* YCAnalysis.m in Sources */,
 			);
@@ -846,7 +872,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -866,7 +892,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

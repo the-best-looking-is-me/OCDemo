@@ -50,8 +50,7 @@
                 NSArray *array = sth[@"data"];
                 for (NSInteger i=0; i<array.count; i++) {
                     
-                    NSLog(@"=== %@",[YCAnalysis objectCreateProperty:array[i] DicUseID:NO]);
-                    
+                    //NSLog(@"=== %@",[YCAnalysis objectCreateProperty:array[i] DicUseID:NO]);
                     JJTModel *model = [JJTModel mj_objectWithKeyValues:array[i]];
                     [datas addObject:model];
                 }

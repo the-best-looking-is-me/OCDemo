@@ -187,6 +187,10 @@
     return nil;
 }
 
+- (void)dealloc{
+    NSLog(@"tableview dealloc");
+}
+
 
 
 @end
