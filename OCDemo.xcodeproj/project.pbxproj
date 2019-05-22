@@ -14,6 +14,7 @@
 		6F0766882282B6D7009A956D /* NSObject+HaveValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0766872282B6D7009A956D /* NSObject+HaveValue.m */; };
 		6F07668B2282BC85009A956D /* JJSimpleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668A2282BC85009A956D /* JJSimpleData.m */; };
 		6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F07668D2282C41A009A956D /* YCRuntimeTool.m */; };
+		6F19DDA62293C8FE006D2518 /* MansoryUseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F19DDA52293C8FE006D2518 /* MansoryUseVC.m */; };
 		6F1BB242228021E0006DDBE8 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */; };
 		6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B3228FEDE40002A797 /* YCTEST.m */; };
 		6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B78B6228FF4680002A797 /* JJTModel.m */; };
@@ -70,6 +71,8 @@
 		6F07668A2282BC85009A956D /* JJSimpleData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSimpleData.m; sourceTree = "<group>"; };
 		6F07668C2282C41A009A956D /* YCRuntimeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCRuntimeTool.h; sourceTree = "<group>"; };
 		6F07668D2282C41A009A956D /* YCRuntimeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRuntimeTool.m; sourceTree = "<group>"; };
+		6F19DDA42293C8FE006D2518 /* MansoryUseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MansoryUseVC.h; sourceTree = "<group>"; };
+		6F19DDA52293C8FE006D2518 /* MansoryUseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MansoryUseVC.m; sourceTree = "<group>"; };
 		6F1BB240228021E0006DDBE8 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		6F1BB241228021E0006DDBE8 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		6F2B78B2228FEDE40002A797 /* YCTEST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTEST.h; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 		6F19DD9D2293C7BE006D2518 /* MansoryUse */ = {
 			isa = PBXGroup;
 			children = (
+				6F19DDA42293C8FE006D2518 /* MansoryUseVC.h */,
+				6F19DDA52293C8FE006D2518 /* MansoryUseVC.m */,
 			);
 			path = MansoryUse;
 			sourceTree = "<group>";
@@ -681,6 +686,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F19DDA62293C8FE006D2518 /* MansoryUseVC.m in Sources */,
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
 				6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */,
 				6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */,
