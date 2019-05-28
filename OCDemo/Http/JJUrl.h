@@ -9,7 +9,7 @@
 #ifndef JJUrl_h
 #define JJUrl_h
 
-//登录 地址
+//登录
 #define http_login @"/login/loginByPwd"
 
 //ios版本号

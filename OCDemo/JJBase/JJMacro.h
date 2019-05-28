@@ -39,4 +39,15 @@
 
 #define SNJJWEAK __weak typeof(self) weak = self;
 
+//测试色
+#define KKTestColor [UIColor redColor]
+
+//深一点
+#define KKGrayColor RGBA(28, 163, 253, 1)
+//主色调
+#define KKlitteGrayColor RGBA(28, 203, 253, 1)
+
+//候选字
+#define KKTextPlaceStrColor RGBA(217, 217, 217, 1)
+
 #endif /* JJMacro_h */
