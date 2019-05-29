@@ -33,7 +33,7 @@
  @return YES：登录过
  */
 - (BOOL)isLogin{
-    return NO;
+    return YES;
 }
 
 /**
