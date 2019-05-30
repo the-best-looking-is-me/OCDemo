@@ -29,6 +29,10 @@
 		6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		6F306644228FC2060093BA74 /* JJBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F306643228FC2060093BA74 /* JJBaseTableView.m */; };
 		6F429B55229D32B3009EE5D4 /* YCScrollTV.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B54229D32B3009EE5D4 /* YCScrollTV.m */; };
+		6F429B5B229E2813009EE5D4 /* YCTVScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B5A229E2813009EE5D4 /* YCTVScrollView.m */; };
+		6F429B5E229E29E6009EE5D4 /* YCTVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B5D229E29E6009EE5D4 /* YCTVTableView.m */; };
+		6F429B61229E2A86009EE5D4 /* YCTVTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B60229E2A86009EE5D4 /* YCTVTableCell.m */; };
+		6F429B67229E7DAE009EE5D4 /* YCTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B66229E7DAE009EE5D4 /* YCTestView.m */; };
 		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
@@ -102,6 +106,14 @@
 		6F306643228FC2060093BA74 /* JJBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJBaseTableView.m; sourceTree = "<group>"; };
 		6F429B53229D32B3009EE5D4 /* YCScrollTV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCScrollTV.h; sourceTree = "<group>"; };
 		6F429B54229D32B3009EE5D4 /* YCScrollTV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCScrollTV.m; sourceTree = "<group>"; };
+		6F429B59229E2813009EE5D4 /* YCTVScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTVScrollView.h; sourceTree = "<group>"; };
+		6F429B5A229E2813009EE5D4 /* YCTVScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTVScrollView.m; sourceTree = "<group>"; };
+		6F429B5C229E29E6009EE5D4 /* YCTVTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTVTableView.h; sourceTree = "<group>"; };
+		6F429B5D229E29E6009EE5D4 /* YCTVTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTVTableView.m; sourceTree = "<group>"; };
+		6F429B5F229E2A86009EE5D4 /* YCTVTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTVTableCell.h; sourceTree = "<group>"; };
+		6F429B60229E2A86009EE5D4 /* YCTVTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTVTableCell.m; sourceTree = "<group>"; };
+		6F429B65229E7DAE009EE5D4 /* YCTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCTestView.h; sourceTree = "<group>"; };
+		6F429B66229E7DAE009EE5D4 /* YCTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTestView.m; sourceTree = "<group>"; };
 		6F539C0D228948B200775579 /* JJLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginVC.h; sourceTree = "<group>"; };
 		6F539C0E228948B200775579 /* JJLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginVC.m; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +208,8 @@
 			children = (
 				6F19DDA42293C8FE006D2518 /* MansoryUseVC.h */,
 				6F19DDA52293C8FE006D2518 /* MansoryUseVC.m */,
+				6F429B65229E7DAE009EE5D4 /* YCTestView.h */,
+				6F429B66229E7DAE009EE5D4 /* YCTestView.m */,
 			);
 			path = MansoryUse;
 			sourceTree = "<group>";
@@ -250,6 +264,12 @@
 			children = (
 				6F429B53229D32B3009EE5D4 /* YCScrollTV.h */,
 				6F429B54229D32B3009EE5D4 /* YCScrollTV.m */,
+				6F429B59229E2813009EE5D4 /* YCTVScrollView.h */,
+				6F429B5A229E2813009EE5D4 /* YCTVScrollView.m */,
+				6F429B5C229E29E6009EE5D4 /* YCTVTableView.h */,
+				6F429B5D229E29E6009EE5D4 /* YCTVTableView.m */,
+				6F429B5F229E2A86009EE5D4 /* YCTVTableCell.h */,
+				6F429B60229E2A86009EE5D4 /* YCTVTableCell.m */,
 			);
 			path = YCScrollTV;
 			sourceTree = "<group>";
@@ -702,11 +722,13 @@
 				6F19DDA62293C8FE006D2518 /* MansoryUseVC.m in Sources */,
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
 				6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */,
+				6F429B5E229E29E6009EE5D4 /* YCTVTableView.m in Sources */,
 				6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */,
 				6F429B55229D32B3009EE5D4 /* YCScrollTV.m in Sources */,
 				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
 				6F2B78D922938AF30002A797 /* JJCollectionView.m in Sources */,
 				6F2B78CA22924EF00002A797 /* JsonToPropertyModel.m in Sources */,
+				6F429B61229E2A86009EE5D4 /* YCTVTableCell.m in Sources */,
 				6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */,
 				6F306641228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				6FBAD1CD227BE0F2005F0A47 /* YCViewTool.m in Sources */,
@@ -734,10 +756,12 @@
 				6F2B78D622938ACA0002A797 /* JJCollectionViewCell.m in Sources */,
 				6FBAD1A7227BD24E005F0A47 /* JJIndexPageVC.m in Sources */,
 				6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */,
+				6F429B5B229E2813009EE5D4 /* YCTVScrollView.m in Sources */,
 				6FBAD1CA227BDFC4005F0A47 /* UIView+Frame.m in Sources */,
 				6F2B78B7228FF4680002A797 /* JJTModel.m in Sources */,
 				6F2B78D322938A7E0002A797 /* JJTableViewCell.m in Sources */,
 				6FBAD19A227BCF27005F0A47 /* JJBaseNaviVC.m in Sources */,
+				6F429B67229E7DAE009EE5D4 /* YCTestView.m in Sources */,
 				6FBAD1C1227BDD5D005F0A47 /* YCAnalysis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

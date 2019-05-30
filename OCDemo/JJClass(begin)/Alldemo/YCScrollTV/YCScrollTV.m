@@ -7,10 +7,11 @@
 //
 
 #import "YCScrollTV.h"
+#import "YCTVScrollView.h"
 
-@interface YCScrollTV ()<UIScrollViewDelegate>
+#define Kpage 3
 
-@property (nonatomic,strong) UIScrollView *mainScrollView;
+@interface YCScrollTV ()
 
 @end
 
@@ -20,26 +21,50 @@
     [super viewDidLoad];
     self.title = @"滑动demo";
     
-    [self createUI:3];
+    YCTVScrollView *sv = [[YCTVScrollView alloc] initWithFrame:CGRectMake(0, SafeAreaTopHeight, ScreenWidth, ScreenHeight - SafeAreaTopHeight - SafeAreaBottomHeight)];
+    sv.pageNum = Kpage;
+    sv.headView = [self createHeadView];
+    sv.selectTapView = [self createSelectTapView];
+    [sv setUI];
+    [self.view addSubview:sv];
+    
     [self naviViewToFont];
 }
 
-- (void)createUI:(NSInteger)num{
-    _mainScrollView = [YCUI ui_scrollView:self.view.bounds];
-    [_mainScrollView setContentSize:CGSizeMake(_mainScrollView.Width * num, 0)];
-    _mainScrollView.pagingEnabled = YES;
-    _mainScrollView.delegate = self;
-    _mainScrollView.backgroundColor = KKTestColor;
-    [self.view addSubview:_mainScrollView];
+//头
+- (UIView *)createHeadView{
+    UIView *head = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 200)];
+    head.backgroundColor = [UIColor lightGrayColor];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(click:)];
+    [head addGestureRecognizer:tap];
+    
+    return head;
 }
 
-#pragma mark - UIScrollViewDelegate
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
-    
+- (void)click:(UITapGestureRecognizer *)tap{
+    NSLog(@"点了头部");
 }
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    NSInteger page = scrollView.contentOffset.x / scrollView.Width;
-    NSLog(@"第几页 =%zd",page);
+
+//选择标签
+- (UIView *)createSelectTapView{
+    UIView *selectView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 40)];
+    
+    CGFloat num = Kpage;
+    
+    CGFloat x = 0;
+    CGFloat w = ScreenWidth / num;
+    NSArray *colors = @[[UIColor yellowColor],[UIColor redColor],[UIColor blueColor]];
+    for (NSInteger i = 0; i < num; i++) {
+        UIButton *btn = [YCUI ui_buttonSimple:CGRectMake(x, 0, w, selectView.Height) font:[UIFont systemFontOfSize:14] normalColor:[UIColor blackColor] normalText:[NSString stringWithFormat:@"第%zd页",i] click:^(UIButton *x) {
+            NSLog(@"%@",[NSString stringWithFormat:@"点了第%zd个按扭",x.tag]);
+        }];
+        btn.backgroundColor = colors[i]?:[UIColor lightGrayColor];
+        btn.tag = i;
+        [selectView addSubview:btn];
+        x += w;
+    }
+    return selectView;
 }
 
 
