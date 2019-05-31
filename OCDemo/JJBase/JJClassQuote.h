@@ -63,6 +63,7 @@
 #import "UIImageView+CornerRadius.h"
 #import "JJAFNetworking.h"
 #import "UIButton+ColorButton.h"
+#import "YCControl.h"
 
 //控制器
 #import "JJToolPageVC.h"

@@ -34,6 +34,9 @@
 		6F429B61229E2A86009EE5D4 /* YCTVTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B60229E2A86009EE5D4 /* YCTVTableCell.m */; };
 		6F429B67229E7DAE009EE5D4 /* YCTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F429B66229E7DAE009EE5D4 /* YCTestView.m */; };
 		6F539C0F228948B200775579 /* JJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F539C0E228948B200775579 /* JJLoginVC.m */; };
+		6FA5F320229FB3B2000B1358 /* YCScrollTVTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5F31F229FB3B2000B1358 /* YCScrollTVTwo.m */; };
+		6FA5F323229FB650000B1358 /* YCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5F322229FB650000B1358 /* YCControl.m */; };
+		6FA5F326229FE34A000B1358 /* UILabel+JJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA5F325229FE34A000B1358 /* UILabel+JJLabel.m */; };
 		6FBAD16A227BCC22005F0A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD169227BCC22005F0A47 /* AppDelegate.m */; };
 		6FBAD16D227BCC22005F0A47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAD16C227BCC22005F0A47 /* ViewController.m */; };
 		6FBAD170227BCC22005F0A47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FBAD16E227BCC22005F0A47 /* Main.storyboard */; };
@@ -116,6 +119,12 @@
 		6F429B66229E7DAE009EE5D4 /* YCTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCTestView.m; sourceTree = "<group>"; };
 		6F539C0D228948B200775579 /* JJLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJLoginVC.h; sourceTree = "<group>"; };
 		6F539C0E228948B200775579 /* JJLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJLoginVC.m; sourceTree = "<group>"; };
+		6FA5F31E229FB3B2000B1358 /* YCScrollTVTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCScrollTVTwo.h; sourceTree = "<group>"; };
+		6FA5F31F229FB3B2000B1358 /* YCScrollTVTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCScrollTVTwo.m; sourceTree = "<group>"; };
+		6FA5F321229FB650000B1358 /* YCControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCControl.h; sourceTree = "<group>"; };
+		6FA5F322229FB650000B1358 /* YCControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCControl.m; sourceTree = "<group>"; };
+		6FA5F324229FE34A000B1358 /* UILabel+JJLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JJLabel.h"; sourceTree = "<group>"; };
+		6FA5F325229FE34A000B1358 /* UILabel+JJLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JJLabel.m"; sourceTree = "<group>"; };
 		6FBAD165227BCC22005F0A47 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBAD168227BCC22005F0A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FBAD169227BCC22005F0A47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -217,6 +226,7 @@
 		6F2B78BB229246A10002A797 /* Alldemo */ = {
 			isa = PBXGroup;
 			children = (
+				6FA5F31D229FB39B000B1358 /* YCScrollTVTwo */,
 				6F429B52229D329E009EE5D4 /* YCScrollTV */,
 				6F19DD9D2293C7BE006D2518 /* MansoryUse */,
 				6F2B78BC229246A10002A797 /* JsonToProperty */,
@@ -272,6 +282,15 @@
 				6F429B60229E2A86009EE5D4 /* YCTVTableCell.m */,
 			);
 			path = YCScrollTV;
+			sourceTree = "<group>";
+		};
+		6FA5F31D229FB39B000B1358 /* YCScrollTVTwo */ = {
+			isa = PBXGroup;
+			children = (
+				6FA5F31E229FB3B2000B1358 /* YCScrollTVTwo.h */,
+				6FA5F31F229FB3B2000B1358 /* YCScrollTVTwo.m */,
+			);
+			path = YCScrollTVTwo;
 			sourceTree = "<group>";
 		};
 		6FBAD15C227BCC22005F0A47 = {
@@ -503,6 +522,8 @@
 				6F30663F228A573A0093BA74 /* UINavigationController+FDFullscreenPopGesture.m */,
 				6F2B78DB229395B20002A797 /* UIButton+ColorButton.h */,
 				6F2B78DA229395B20002A797 /* UIButton+ColorButton.m */,
+				6FA5F324229FE34A000B1358 /* UILabel+JJLabel.h */,
+				6FA5F325229FE34A000B1358 /* UILabel+JJLabel.m */,
 			);
 			path = Catatogy;
 			sourceTree = "<group>";
@@ -533,6 +554,8 @@
 				6FBAD1BA227BDD5D005F0A47 /* YCAnalysis.m */,
 				6FBAD1B8227BDD5D005F0A47 /* YCUI.h */,
 				6FBAD1BE227BDD5D005F0A47 /* YCUI.m */,
+				6FA5F321229FB650000B1358 /* YCControl.h */,
+				6FA5F322229FB650000B1358 /* YCControl.m */,
 				6FBAD1CB227BE0F2005F0A47 /* YCViewTool.h */,
 				6FBAD1CC227BE0F2005F0A47 /* YCViewTool.m */,
 				6F07668C2282C41A009A956D /* YCRuntimeTool.h */,
@@ -722,8 +745,10 @@
 				6F19DDA62293C8FE006D2518 /* MansoryUseVC.m in Sources */,
 				6FBAD1AD227BD26E005F0A47 /* JJMePageVC.m in Sources */,
 				6F2B78C7229247B90002A797 /* CollectionViewVC.m in Sources */,
+				6FA5F323229FB650000B1358 /* YCControl.m in Sources */,
 				6F429B5E229E29E6009EE5D4 /* YCTVTableView.m in Sources */,
 				6F2B78B4228FEDE40002A797 /* YCTEST.m in Sources */,
+				6FA5F320229FB3B2000B1358 /* YCScrollTVTwo.m in Sources */,
 				6F429B55229D32B3009EE5D4 /* YCScrollTV.m in Sources */,
 				6F07668E2282C41A009A956D /* YCRuntimeTool.m in Sources */,
 				6F2B78D922938AF30002A797 /* JJCollectionView.m in Sources */,
@@ -762,6 +787,7 @@
 				6F2B78D322938A7E0002A797 /* JJTableViewCell.m in Sources */,
 				6FBAD19A227BCF27005F0A47 /* JJBaseNaviVC.m in Sources */,
 				6F429B67229E7DAE009EE5D4 /* YCTestView.m in Sources */,
+				6FA5F326229FE34A000B1358 /* UILabel+JJLabel.m in Sources */,
 				6FBAD1C1227BDD5D005F0A47 /* YCAnalysis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
